@@ -19,3 +19,4 @@ export GIT_REPO=<REPO_URL>
 argocd-autopilot project create <PROJECT_NAME> --dest-kube-context <CONTEXT_NAME>
 ```
 Now all applications in this project that do not explicitly specify a different `--dest-server` will be created on the project's destination server.
+
