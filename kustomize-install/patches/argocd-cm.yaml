@@ -2,5 +2,6 @@ apiVersionapiVersion: v1
 kind: ConfigMap
 metadata:
   name: argocd-cm
+  namespace: argocd
 data:
   timeout.reconciliation: 300s
