@@ -10,4 +10,4 @@ spec:
   source:
     repoURL: https://github.com/12gears/learn-argocd.git
     targetRevision: main
-    path: ch03/
+    path: resources/
