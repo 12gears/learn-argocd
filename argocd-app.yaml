@@ -12,4 +12,4 @@ spec:
   source:
     repoURL: https://github.com/12gears/learn-argocd.git
     targetRevision: main
-    path: resources/
+    path: kustomize-install/
