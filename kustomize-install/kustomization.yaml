@@ -8,4 +8,4 @@ patches:
 - path: patches/argocd-cm.yaml
   target:
     kind: ConfigMap
-    name: argo-cm
+    name: argocd-cm
