@@ -5,11 +5,6 @@ metadata:
 spec:
   replicas: 1
   template:
-    metadata:
-      annotations:
-        prometheus.io/path: /metrics
-        prometheus.io/port: "8083"
-        prometheus.io/scape: "true"
     spec:
       containers:
         - name: argocd-server
